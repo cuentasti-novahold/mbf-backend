@@ -69,6 +69,9 @@ export class Equipment {
 
   @Prop()
   company?: string;
+
+  @Prop()
+  username?: string;
 }
 
 export const EquipmentSchema = SchemaFactory.createForClass(Equipment);
